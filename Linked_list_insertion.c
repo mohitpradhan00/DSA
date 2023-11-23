@@ -151,17 +151,17 @@ struct Node * insertAtEnd(struct Node *head, int data){
     return head;
 }
 
-// Case 4
-struct Node * insertAfterNode(struct Node *head, struct Node *prevNode, int data){
-    struct Node * ptr = (struct Node *) malloc(sizeof(struct Node));
-    ptr->data = data;
+// // Case 4
+// struct Node * insertAfterNode(struct Node *head, struct Node *prevNode, int data){
+//     struct Node * ptr = (struct Node *) malloc(sizeof(struct Node));
+//     ptr->data = data;
 
-    ptr->next = prevNode->next;
-    prevNode->next = ptr;
+//     ptr->next = prevNode->next;
+//     prevNode->next = ptr;
 
     
-    return head;
-}
+//     return head;
+// }
 
 
 int main(){
